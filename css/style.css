@@ -145,11 +145,6 @@ header{
 	.navbar{
 		display: none;
     }  
-    .title{
-    	width: 100%;
-    	display: inline-block;
-    	text-align: center;
-    }
 }
 @media (max-width: 480px){
     .box-size img{
@@ -165,6 +160,11 @@ header{
     	display: block;
     	text-align: center;
     	align-items: center;
+    }
+    .title{
+    	width: 100%;
+    	display: inline-block;
+    	text-align: center;
     }
     .main-logo{
     	display: none;
