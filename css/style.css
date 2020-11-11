@@ -1,0 +1,172 @@
+.conteiner{
+	max-width: 1300px;
+	width: 100%;
+	padding:5px;
+	margin:0 auto;
+}
+.image-box{
+	background-image: url(../pictures/image.png);
+	background-repeat: no-repeat;
+	background-size: 1400px;
+	height: 613px;
+}
+.main-logo1{
+	width: 100px;
+	height: 95px;
+	right: 0;
+}
+header{
+	width: 100%;
+	position: fixed;
+	color: grey;
+	background-color: #fff;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.navbar{
+	margin-left: 500px;
+}
+
+.navbar-li a{
+	color: #707070;
+	padding: 20px;
+	font-family: 'Archy EDT';
+}
+.logo img{
+	margin-right: 60px;
+	width: 25px;
+	height: 25px;
+}
+
+.title{
+	padding-bottom: 50px;
+    background-color: #fff;
+}
+.title h2{
+	font-size: 40px;
+	color: #707070;
+	padding-top: 50px;
+	font-family: 'Archy EDT';
+}
+.box-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+}
+.box-size{
+	width: 400px;
+	height: 500px;
+}
+.box-size1{
+	width: 400px;
+	height: 500px;
+}
+  .box-size1 h3{
+  	font-size: 30px;
+	padding-top: 20px;
+	font-family: 'Archy EDT';
+  }
+  .box-size1 p{
+	font-size: 18px;
+	padding-top: 20px;
+	font-family: 'Pierre Dingbats';
+}
+.size{
+	width: 400px;
+}
+.box-size h3{
+	font-size: 30px;
+	padding-top: 20px;
+	font-family: 'Archy EDT';
+}
+.box-size p{
+	font-size: 18px;
+	padding-top: 20px;
+	font-family: 'Pierre Dingbats';
+}
+.more{
+	font-size: 24px;
+	float: right;
+	padding-top: 60px;
+	padding-bottom: 20px;
+	color: #707070;
+}
+.load{
+	text-align: center;
+	font-size: 30px;
+	color: #707070;
+}
+
+
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #2E2E2E;
+}
+.li-contact{
+	color: #fff;
+	font-size: 20px;
+	padding-top: 2px;
+}
+.li-adress{
+	font-size: 13px;
+	color: #fff;
+	padding-top: 2px;
+}
+.icon{
+	width: 43px;
+	height: 43px;
+	padding-right: 10px;
+}
+@media (max-width: 768px){
+	.image-box{
+		background-image: url(../pictures/yannis.png);
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		padding: 10px;
+		left: 0;
+	}
+	.box-size1{ 
+		width: 60%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.navbar{
+		display: none;
+    }  
+}
+@media (max-width: 480px){
+    .box-size img{
+    	display: none;
+    }
+    .box-size{
+    	background-image: url(../pictures/neo.png);
+    	background-repeat: no-repeat;
+    	width: 80%;
+    	height: 400px;
+    	padding-top:300px;
+    	margin: 20px;
+    	display: block;
+    	text-align: center;
+    	align-items: center;
+    }
+    .main-logo{
+    	display: none;
+    }
+    .nav-menu{
+    	width: 100%;
+    	display: block;
+    	text-align: center;
+    	align-items: center;
+    }
+}
